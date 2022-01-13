@@ -13,3 +13,5 @@ steps:
       DockerRequirement:
         dockerPull: step
     run: child2.cwl
+  child3:
+    run: child3.cwl
