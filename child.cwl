@@ -4,5 +4,5 @@ inputs:
 outputs:
 baseCommand: echo
 hints:
-  DockerRequirement:
+  - class: DockerRequirement
     dockerPull: child
