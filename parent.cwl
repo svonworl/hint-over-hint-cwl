@@ -6,5 +6,5 @@ hints:
   DockerRequirement:
     dockerPull: parent
 steps:
-  child1:
-    run: child1.cwl
+  child:
+    run: child.cwl
