@@ -5,7 +5,7 @@ outputs:
 steps:
   child1:
     hints:
-      DockerRequirement:
+      - class: DockerRequirement
         dockerPull: parent
     run: child.cwl
   child2:
