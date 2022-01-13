@@ -2,9 +2,11 @@ cwlVersion: v1.0
 class: Workflow
 inputs:
 outputs:
-hints:
-  DockerRequirement:
-    dockerPull: parent
 steps:
-  child:
+  child1:
+    hints:
+      DockerRequirement:
+        dockerPull: parent
+    run: child.cwl
+  child2:
     run: child.cwl
