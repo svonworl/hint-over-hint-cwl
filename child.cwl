@@ -5,4 +5,4 @@ outputs:
 baseCommand: echo
 hints:
   DockerRequirement:
-    dockerPull: child1
+    dockerPull: child
